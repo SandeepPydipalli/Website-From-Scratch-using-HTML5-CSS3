@@ -39,9 +39,8 @@
         </nav><!--nav-->
     </header><!--header-->
 
-    <section class="banner cycle-slideshow">
-        <img src="Images/Banner1.jpg" alt="Banner 1">
-        <img src="Images/Banner2.jpg" alt="Banner 2">
+    <section class="banner">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.636330168116!2d-122.08627838483176!3d37.422069840146406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sin!4v1613581331567!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section><!--Banner slider-->
 
     <section class="content-holder"><!--Content Holder-->
@@ -53,17 +52,39 @@
                      mollitia nobis maiores esse velit fuga dicta,
                       et officia nemo error omnis.
                 </p>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                     Repellat labore, praesentium sit officia ab
-                      quidem totam et voluptas est cum pariatur velit
-                       dignissimos, aliquid perferendis rerum omnis,
-                     voluptatum eius fugiat.
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Beatae id error similique necessitatibus in nobis cumque! 
-                      Neque blanditiis sed itaque quos maiores illum nisi, 
-                     deserunt temporibus doloremque animi fugiat autem.
-                </p>
+                <div class="contact-form">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="c_name" required></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail:</td>
+                                <td><input type="text" name="c_email" required></td>
+                            </tr>
+                            <tr>
+                                <td>Phone:</td>
+                                <td><input type="text" name="C-tel" required></td>
+                            </tr>
+                            <tr>
+                                <td>Subject:</td>
+                                <td><input type="text" name="C_sub" required></td>
+                            </tr>
+                            <tr>
+                                <td>Message:</td>
+                                <td>
+                                    <textarea name="c_mes" cols="30" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" name="c_send" value="Send Message"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+
+               
             </main>
         </article><!--Content-->
 
